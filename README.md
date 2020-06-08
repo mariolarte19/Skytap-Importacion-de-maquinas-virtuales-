@@ -93,7 +93,7 @@ Una vez el proceso de carga del archivo en WinSCP termine haga clic en el botón
 Podrá encontrar su máquina en el panel principal.
 
 <p align="center">
-<img width="944" src="https://github.com/JulianaLeonGonzalez/Skytap-POC/blob/master/Imagen7.png">
+<img width="944" src="https://github.com/mariolarte19/Skytap-Importacion-de-maquinas-virtuales-/blob/master/SKYTAP8.png">
 </p>
  
 ## Notas 📑
