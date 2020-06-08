@@ -1,6 +1,5 @@
-# Skytap-Importacion-de-maquinas-virtuales-
+# ☁️ Skytap-Importacion-de-maquinas-virtuales ☁️
 
-#  ☁️ POC Skytap ☁️
 En esta guía encontrará el paso a paso detallado para la importación de sus máquinas a Skytap usando FTP.
 
 ### Indice:
