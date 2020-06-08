@@ -58,14 +58,14 @@ https://www.vmware.com/products/converter.html
 3. Abra VMware vCenter Converter.
 4. Haga clic en **Convertir máquina**.
 5. En **Tipo de origen**, seleccione **VMware Workstation u otra máquina virtual VMware**. Elija la ubicación del archivo VMX u OVA. Haga clic en **Siguiente**.
-6. En Seleccionar tipo de destino , seleccione VMware Workstation u otra máquina virtual VMware .
-En Seleccionar producto VMware , seleccione VMware Workstation 11.0 .
-Ingrese un nombre para su VM en el campo Nombre .
-Seleccione una ubicación de destino para el archivo convertido. Haga clic en Siguiente .
-Para aceptar las opciones predeterminadas, haga clic en Siguiente .
-En la página de resumen, verifique la configuración.
-Haga clic en Finalizar para comenzar el proceso de conversión. Dependiendo del tamaño de la VM, el proceso de conversión puede tardar más de una hora en completarse.
-Importe la máquina virtual convertida en Skytap. Para obtener instrucciones, consulte Importar máquinas virtuales en Skytap .
+6. En **Seleccionar tipo de destino**, seleccione **VMware Workstation u otra máquina virtual VMware**.
+7. En **Seleccionar producto VMware**, seleccione **VMware Workstation 11.0**.
+8. Ingrese un nombre para su VM en el campo **Nombre**.
+9. Seleccione una ubicación de destino para el archivo convertido. Haga clic en **Siguiente**.
+10. Para aceptar las opciones predeterminadas, haga clic en **Siguiente**.
+11. En la página de resumen, verifique la configuración.
+12. Haga clic en **Finalizar** para comenzar el proceso de conversión. Dependiendo del tamaño de la VM, el proceso de conversión puede tardar más de una hora en completarse.
+13. **Importe la máquina virtual** convertida en Skytap, Este proceso lo puede realizar siguiendo esta guia siguiendola como si la imagen ya fuera VMware, o si desea información adicionar la puede consultar [aqui](https://help.skytap.com/importing-vms-overview.html).
 
  
  ## 2. Crear un trabajo de importación en Skytap
