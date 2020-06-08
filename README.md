@@ -87,13 +87,13 @@ Si no puede crear archivos de tipo OVA es recomendado comprimir los archivos OVF
 Una vez el proceso de carga del archivo en WinSCP termine haga clic en el botón _Create environment_, Skytap iniciará un proceso de análisis archivo de la carpeta _UPLOAD_ para luego importar las máquinas virtuales y crear un entorno virtual con su configuración de red.
 
 <p align="center">
-<img width="932" alt="Skytap6" src="https://github.com/JulianaLeonGonzalez/Skytap-POC/blob/master/Imagen6.png">
+<img width="932" alt="Skytap6" src="https://github.com/mariolarte19/Skytap-Importacion-de-maquinas-virtuales-/blob/master/SKYTAP8.png">
 </p>
 
 Podrá encontrar su máquina en el panel principal.
 
 <p align="center">
-<img width="944" src="https://github.com/mariolarte19/Skytap-Importacion-de-maquinas-virtuales-/blob/master/SKYTAP8.png">
+<img width="944" src="https://github.com/mariolarte19/Skytap-Importacion-de-maquinas-virtuales-/blob/master/Imagen1.png">
 </p>
  
 ## Notas 📑
