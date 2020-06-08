@@ -38,27 +38,27 @@ Si no puede crear archivos de tipo OVA es recomendado comprimir los archivos OVF
 
 ### B. Máquinas virtuales no basadas en VMware
 
-Las máquinas virtuales no basadas en VMware no pueden importarse directamente a Skytap (por ejemplo máquinas VirtualBox), Esto se debe a que el formato base se la imagen no es compatible con Skytap. Para Solucionar este problema se debe convertir esta imagen, y se puede hacer de las siguinetes maneras:
-Convertir máquinas virtuales no basadas en VMware para importar
+
 Algunas imágenes OVA y OVF no están basadas en VMware y no pueden importarse directamente a Skytap. Por ejemplo, las máquinas virtuales VirtualBox no están basadas en VMware, porque no se exportaron desde un hipervisor VMware (VMware Server, VMware Workstation, VMware ESX, etc.).
 
-Para importar OVA y OVF que no sean de VMware a Skytap, conviértalos usando VMware vCenter Converter.
+Para importar OVA y OVF que no sean de VMware a Skytap, debemos convertir esta imagen y una de las formas es usando VMware vCenter Converter.
 
-VMware vCenter Converter es una utilidad gratuita de VMware que edita y convierte las imágenes de su máquina virtual fuera de Skytap. Para obtener más información sobre VMware vCenter Converter, consulte la documentación del producto VMware .
 
-Instrucciones
-Para convertir un OVA o OVF que no sea VMware a un formato basado en VMware
-Desde la máquina host:
+**Instrucciones:**
 
-Si la VM es un archivo OVF, primero conviértalo al formato VMX. Para obtener instrucciones, consulte Conversión de archivos OVF a VMX para usar con VMware Converter .
-Descargue e instale VMware vCenter Converter en su máquina local.
+1. Si la VM es un archivo OVF, primero conviértalo al formato VMX. Para obtener instrucciones, consulte [Conversión de archivos OVF a VMX para usar con VMware Converter](https://help.skytap.com/Using_OVF_Converter_Tool.html).
 
-Descargue VMware vCenter Converter en https://www.vmware.com/products/converter.html .
 
-Abra VMware vCenter Converter.
-Haga clic en Convertir máquina .
-En Tipo de origen , seleccione VMware Workstation u otra máquina virtual VMware . Elija la ubicación del archivo VMX u OVA. Haga clic en Siguiente .
-En Seleccionar tipo de destino , seleccione VMware Workstation u otra máquina virtual VMware .
+2. Descargue e instale VMware vCenter Converter en su máquina local, para la descarga lo puede hacer desde el siguiente link:
+
+```
+https://www.vmware.com/products/converter.html
+```
+
+3. Abra VMware vCenter Converter.
+4. Haga clic en **Convertir máquina**.
+5. En **Tipo de origen**, seleccione **VMware Workstation u otra máquina virtual VMware**. Elija la ubicación del archivo VMX u OVA. Haga clic en **Siguiente**.
+6. En Seleccionar tipo de destino , seleccione VMware Workstation u otra máquina virtual VMware .
 En Seleccionar producto VMware , seleccione VMware Workstation 11.0 .
 Ingrese un nombre para su VM en el campo Nombre .
 Seleccione una ubicación de destino para el archivo convertido. Haga clic en Siguiente .
